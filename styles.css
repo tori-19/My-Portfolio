@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: sticky; 
+    top: 0;
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px;
+    z-index: 1000; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px; 
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+#about {
+  padding: 20px;
+}
+
+.about-boxes {
+  display: flex; 
+  gap: 20px; 
+}
+
+.about-boxes > div {
+  flex: 1; 
+  background-color: #f9f9f9; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 2px solid #333; 
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.timeline-item p {
+  margin: 5px 0;
+}
+
+.timeline-item span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 50%; 
+  border: 2px solid #fff;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Social Links Styling */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333; /* Neutral icon color */
+  margin: 0 10px;
+  font-size: 1.5rem; /* Icon size */
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* Default LinkedIn color */
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+.social-links a:nth-child(2):hover {
+  color: #333; /* GitHub stays neutral */
+}
+
+.social-links a:nth-child(3):hover {
+  color: #1DA1F2; /* Twitter blue */
+}
+
+
+  
