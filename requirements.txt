@@ -89,10 +89,10 @@ pyRFC3339==1.1
 PyScreeze==1.0.1
 PySocks==1.7.1
 # python-apt==2.4.0+ubuntu4
-python-debian==0.1.43+ubuntu1.1
-python-gnupg==0.4.8
-python-xlib==0.29
-python3-xlib==0.15
+# python-debian==0.1.43+ubuntu1.1
+# python-gnupg==0.4.8
+# python-xlib==0.29
+# python3-xlib==0.15
 pytweening==1.2.0
 pytz==2022.1
 pywhatkit==5.4
