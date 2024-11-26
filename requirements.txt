@@ -59,17 +59,17 @@ packaging==21.3
 pillow==11.0.0
 # pop-transition==1.1.2
 protobuf==3.12.4
-proton-core==0.3.3
-proton-keyring-linux==0.1.0
-proton-keyring-linux-secretservice==0.1.0
-proton-vpn-api-core==0.29.4
-proton-vpn-gtk-app==4.4.2
-proton-vpn-killswitch-network-manager==0.5.0
-proton-vpn-killswitch-network-manager-wireguard==0.1.0
-proton-vpn-logger==0.2.1
-proton-vpn-network-manager==0.5.0
-proton-vpn-network-manager-openvpn==0.0.7
-proton-vpn-network-manager-wireguard==0.0.12
+# proton-core==0.3.3
+# proton-keyring-linux==0.1.0
+# proton-keyring-linux-secretservice==0.1.0
+# proton-vpn-api-core==0.29.4
+# proton-vpn-gtk-app==4.4.2
+# proton-vpn-killswitch-network-manager==0.5.0
+# proton-vpn-killswitch-network-manager-wireguard==0.1.0
+# proton-vpn-logger==0.2.1
+# proton-vpn-network-manager==0.5.0
+# proton-vpn-network-manager-openvpn==0.0.7
+# proton-vpn-network-manager-wireguard==0.0.12
 PyAutoGUI==0.9.54
 pycairo==1.20.1
 pycparser==2.22
