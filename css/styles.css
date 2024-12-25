@@ -71,11 +71,13 @@ nav ul li a:hover {
 }
 
 .profile-photo {
-  width: 450px;  
-  height: 450px; 
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
+  width: 100%; 
+  max-width: 300px;
+  height: auto; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: 20px auto; 
+  display: block;
 }
 
 .intro-text h1 {
