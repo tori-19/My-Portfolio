@@ -15,6 +15,10 @@ body {
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -135,7 +139,16 @@ nav a:hover {
 
 /* Projects Section */
 .project {
-  margin-bottom: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.2;
+}
+
+.project:hover {
+  transform: translateY(-5px);
 }
 
 .project-image {
@@ -146,15 +159,15 @@ nav a:hover {
 }
 
 .project-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0f2027;
-  font-weight: bold;
-  text-decoration: none;
+  background-color: #0f2037;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  background-color: #203a43;
 }
 
 /* Contact Section */
