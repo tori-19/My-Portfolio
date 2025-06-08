@@ -1,29 +1,32 @@
-# Thoriso Morweng - Portfolio
+# 💼 Thoriso Morweng - Portfolio
 
-Welcome to my personal portfolio! This website showcases my skills, projects, and experience as a Junior Software Developer.
+Welcome to my personal portfolio! This website showcases my **skills**, **projects**, and **experience** as a Junior Software Developer.
 
-## Features
-- Responsive design for desktop and mobile.
-- Interactive sections like "Home", "About", "Projects", and "Contact".
-- Social media links (LinkedIn and GitHub).
-- Showcases projects with GitHub links for code access.
+## 🚀 Features
 
-## Technologies Used
-- **HTML5**: Structure of the webpage.
-- **CSS3**: Styling and layout (including responsive design).
-- **Font Awesome**: For social media icons and other icons.
-- **JavaScript**: For potential future enhancements and interactivity.
+- 🌐 Responsive design for desktop and mobile
+- 📄 Sections: Home, About, Projects, and Contact
+- 🔗 Social media links (LinkedIn, GitHub)
+- 🛠️ Project previews with direct GitHub links
+- 🌈 Animated gradient background and skill progress bars
 
-## Installation
+## 🛠️ Technologies Used
 
-To run this portfolio locally, follow these steps:
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling, layout, responsive design  
+- **JavaScript** – For interactive features and animations  
+- **Font Awesome** – For icons and social media links
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/tori-19/My-Portfolio.git
- 
-2. **Navigate to the project folder**:
-   cd My-Portfolio
+## 📦 Installation
 
-3. **Open the index.html file in a browser**:
-   Open the index.html file in your preferred browser to view the portfolio.
+To run this portfolio locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/tori-19/My-Portfolio.git
+
+# Navigate to the project folder
+cd My-Portfolio
+
+# Open the index.html file in a browser**:
+Open the index.html file in your preferred browser to view the portfolio.
